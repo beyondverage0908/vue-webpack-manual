@@ -17,3 +17,7 @@ export function filePath() {
 export function opt() {
   return process.env.OPT
 }
+
+export function log(...args) {
+  console.log(args);
+}
